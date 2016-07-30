@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleProgressBar">
+        <attr name="roundColor" format="color"/>
+        <attr name="roundProgressColor" format="color"/>
+        <attr name="roundWidth" format="dimension"></attr>
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="max" format="integer"></attr>
+        <attr name="textIsDisplayable" format="boolean"></attr>
+        <attr name="style">
+            <enum name="STROKE" value="0"></enum>
+            <enum name="FILL" value="1"></enum>
+        </attr>
+    </declare-styleable>
+
+    <!-- 设置旋转菜单对应的第一张图片 -->
+    <declare-styleable name="RoundSpinView">
+        <attr name="menuStart" format="reference" />
+    </declare-styleable>
+
+    <!--搜索圆形进度条-->
+    <declare-styleable name="SearchProgress">
+        <attr name="backgroundColor"   format="color" />
+        <attr name="progressStartColor" format="color" />
+        <attr name="progressEndColor" format="color" />
+        <attr name="search_roundWidth" format="dimension"/>
+        <attr name="search_rectRadius" format="dimension" />
+        <attr name="search_textColor" format="color"/>
+        <attr name="search_textSize" format="dimension" />
+        <attr name="search_max"  format="dimension"/>
+        <attr name="search_textDisplayable" format="boolean"/>
+    </declare-styleable>
+</resources>
