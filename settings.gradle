@@ -1,1 +1,1 @@
-include ':videoplayer2', ':mylibrary'
+include ':videoplayer2'
